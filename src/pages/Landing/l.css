@@ -1,0 +1,6 @@
+.introsection {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(/public/images/pencils.jpg);
+  height: 50vh;
+}
