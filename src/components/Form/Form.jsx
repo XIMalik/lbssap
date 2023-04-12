@@ -15,7 +15,7 @@ export default function Form() {
   const handleSubmit = (event) => {
     event.preventDefault();
 
-    fetch("https://api.apispreadsheets.com/data/pUWfLu0Zt13Z47Zr/", {
+    fetch("https://api.apispreadsheets.com/data/J7G40GHYTowU53Kt/", {
       method: "POST",
       body: JSON.stringify({
         data: {
@@ -114,7 +114,7 @@ export default function Form() {
               <input
                 type="text"
                 value={doyou}
-                onChange={(e) => setWhy(e.target.value)}
+                onChange={(e) => setDoYou(e.target.value)}
                 className=" bg-gray-100/50  ease-in duration-150 hover:bg-slate-200 focus:ring-[1px] focus:ring-red-300 border-0 outline-0 p-2 w-[100%] max-w-[1000px] placeholder-[#040715]/40 rounded-sm mb-5"
               />
             </label>{" "}
@@ -127,7 +127,7 @@ export default function Form() {
               <input
                 type="text"
                 value={ifNo}
-                onChange={(e) => setWhy(e.target.value)}
+                onChange={(e) => setIfNo(e.target.value)}
                 className=" bg-gray-100/50  ease-in duration-150 hover:bg-slate-200 focus:ring-[1px] focus:ring-red-300 border-0 outline-0 p-2 w-[100%] max-w-[1000px] placeholder-[#040715]/40 rounded-sm mb-5"
               />
             </label>
@@ -149,7 +149,7 @@ export default function Form() {
             <span className="text-xs text-black/50">
               By submitting, you consent to the use of your information.{" "}
             </span>
-            <Link to="#">
+            <Link to="#" onClick={handleSubmit}>
               <button className="w-full">
                 <div className="w-full text-white text-sm justify-center p-3 h-fit rounded-lg hover:bg-[#e95656] ease-in-out duration-150 bg-[#e95656]/70 ">
                   Register
