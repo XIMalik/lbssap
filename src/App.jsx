@@ -7,7 +7,8 @@ import Landing from "./pages/Landing/Landing";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Formtest from "./pages/FormTest/Formtest";
 import Course from "./pages/Course/Course";
-Course;
+import Formsubmit from "./pages/Formsubmit";
+import About from "./pages/About/About";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -16,10 +17,11 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route exact path="/" element={<Landing />} />
-        <Route exact path="/skills" element={<Skills />}>
-          <Route exact path="/skills/course" element={<Course />} />
-        </Route>
-        <Route exact path="/form" element={<Formtest />}></Route>
+        <Route exact path="/skills" element={<Skills />} />
+        <Route exact path="/skills/course" element={<Course />} />
+        <Route exact path="/formconfirmation" element={<Formsubmit />} />
+        <Route exact path="/aboutsap" element={<About />} />
+        <Route exact path="/form" element={<Formtest />} />
       </Routes>
     </BrowserRouter>
   );

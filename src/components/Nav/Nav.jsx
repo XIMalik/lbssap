@@ -21,7 +21,7 @@ const Nav = () => {
             </div>
             <div className="text-sm font-light flex text-white/50 justify-evenly gap-5">
               <div>
-                <NavLink to="/form">
+                <NavLink to="/aboutsap">
                   <h1 className="hover:text-white/80 ease-in-out duration-100">
                     About
                   </h1>
@@ -36,7 +36,7 @@ const Nav = () => {
               </div>
 
               <div>
-                <NavLink to="/skills">
+                <NavLink to="/aboutsap">
                   <h1 className="hover:text-white/80 ease-in-out duration-100">
                     Support
                   </h1>
@@ -71,7 +71,7 @@ const Nav = () => {
               <div className="flex justify-center items-center w-screen max-w-[1440px] py-5">
                 <div className="bg-white/30 shadow-xl backdrop-blur-2xl shadow-t-none py-5 px-5 w-[90%] rounded-lg text-sm font-light flex text-white/50 justify-evenly gap-5">
                   <div>
-                    <NavLink to="/skills">
+                    <NavLink to="/aboutsap">
                       <h1 className="hover:text-white/100 ease-in-out duration-100">
                         About
                       </h1>
@@ -86,7 +86,7 @@ const Nav = () => {
                   </div>
 
                   <div>
-                    <NavLink to="/skills">
+                    <NavLink to="/aboutsap">
                       <h1 className="hover:text-white/100 ease-in-out duration-100">
                         Support
                       </h1>

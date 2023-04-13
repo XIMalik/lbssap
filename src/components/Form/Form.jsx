@@ -16,37 +16,35 @@ export default function Form() {
   const handleSubmit = (event) => {
     event.preventDefault();
 
-    // fetch("https://api.apispreadsheets.com/data/E8npidSo176qt1W8/", {
-    //   method: "POST",
-    //   body: JSON.stringify({
-    //     data: {
-    //       "Last Name": lname,
-    //       "First Name": fname,
-    //       "Sample CVL": cvl,
-    //       "Experience?": doyou,
-    //       Achievements: ifYes,
-    //       "Phone Number": phone,
-    //       "Email address": email,
-    //       "Confirm program": confirm,
-    //     },
-    //   }),
-    // }).then((res) => {
-    //   if (res.status === 201) {
-    //     // SUCCESS
-    //   } else {
-    //     // ERROR
-    //   }
-    // });
-
-    console.log(lname, fname, phone);
-    nav("/skills");
+    fetch("https://api.apispreadsheets.com/data/E8npidSo176qt1W8/", {
+      method: "POST",
+      body: JSON.stringify({
+        data: {
+          "Last Name": lname,
+          "First Name": fname,
+          "Sample CVL": cvl,
+          "Experience?": doyou,
+          Achievements: ifYes,
+          "Phone Number": phone,
+          "Email address": email,
+          "Confirm program": confirm,
+        },
+      }),
+    }).then((res) => {
+      if (res.status === 201) {
+        nav("/formconfirmation");
+        console.log("success", lname, fname, phone);
+      } else {
+        // ERROR
+      }
+    });
   };
   return (
-    <div className="sticky left-0 z-50">
-      <div className="slider absolute md:px-10 bg-red-400/30 overflow-scroll p-5 flex flex-col gap-5 backdrop-blur-2xl  w-screen h-screen">
+    <div className="sticky top-0 left-0 z-50">
+      <div className="slider absolute md:px-10 py-5 bg-black/30 overflow-scroll p-5 flex flex-col gap-5 backdrop-blur-lg  w-screen h-screen">
         <form
           onSubmit={handleSubmit}
-          className="flex flex-col gap-5 shadow-3xl min-w-[280px] max-w-[700px] justify-center bg-white rounded-md  p-6 md:p-12 text-sm"
+          className="flex flex-col gap-5 shadow-2xl min-w-[280px] max-w-[700px] justify-center bg-white rounded-md  p-6 md:p-12 text-sm"
         >
           <div className="flex flex-col gap-2 mb-5">
             <h1 className="text-xl text-[#e95656]/70 font-bold">

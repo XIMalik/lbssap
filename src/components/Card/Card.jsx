@@ -1,6 +1,7 @@
 import { faAward } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
+import { Link } from "react-router-dom";
 import "./c.css";
 import bg from "/public/images/bg.jpg";
 
@@ -35,6 +36,9 @@ const Card = () => {
         <span className="text-black/80 text-xs font-bold text-right">
           Olusegun Obasanjo
         </span>
+        <Link to="/skills/course">
+          <h1 className="bg-red-100 p-2 w-fit hover:bg-red-300 ">go</h1>
+        </Link>
       </div>
     </div>
   );

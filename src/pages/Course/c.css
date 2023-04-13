@@ -1,0 +1,6 @@
+.web {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(/public/images/code.jpg);
+  height: 50vh;
+}

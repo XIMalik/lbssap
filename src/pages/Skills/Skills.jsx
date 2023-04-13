@@ -10,7 +10,7 @@ const Skills = () => {
     <div className="skills">
       <GoToTop />
       <div className=" flex flex-col gap-10">
-        <div className="head h-[60vh] md:h-[60vh] bg-red-100">
+        <div className="head h-[40vh] md:h-[40vh] bg-red-100">
           <Nav />
           <div className="flex flex-col px-[25px] sm:px-[30px] md:px-[70px] w-screen max-w-[1440px] justify-center">
             <div className="landing-page-text flex flex-col gap-1 text-white w-[90%] py-5 ">
