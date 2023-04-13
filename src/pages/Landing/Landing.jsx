@@ -54,15 +54,15 @@ const Landing = () => {
         </div>
         <div className="courses w-screen py-5 px-[25px] md:px-[25px] lg:px-[50px] flex flex-col gap-5">
           <div className="gap-1 flex flex-col">
-            <h1 className="px-5 py-1 text-[#e95656] text-md font-semibold">
+            <h1 className=" py-1 text-[#e95656] text-md font-semibold">
               Offering skills essential in todays job market
             </h1>
-            <p className="px-5 text-black/50 text-sm">
+            <p className=" text-black/50 text-sm">
               Skills attainable within a fixed period of time under the tutelage
               of experienced individuals
             </p>
           </div>
-          <div className="items bg-white w-full h-full px-5 flex flex-wrap gap-5">
+          <div className="items bg-white w-full h-full flex flex-wrap gap-5">
             <div className="item text-black/50 text-sm flex gap-3 align-center items-center p-5 h-fit rounded-lg hover:bg-slate-200 ease-in-out duration-150 bg-slate-100  md:min-w-[20%]">
               <FontAwesomeIcon icon={faCode} className="text-[#e95656]" />
               <h1>Web Development</h1>
