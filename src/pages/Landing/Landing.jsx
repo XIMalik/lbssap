@@ -1,3 +1,4 @@
+import { faXmarkCircle } from "@fortawesome/free-regular-svg-icons";
 import {
   faBrush,
   faCode,
@@ -15,10 +16,20 @@ import "./l.css";
 
 const Landing = () => {
   const [open, setOpen] = useState(false);
+
   return (
     <>
       <GoToTop />
-      {open && <Form />}
+      {open && (
+        <div className="absolute z-50">
+          <div className="py-2 px-10 bg-red-400/30 backdrop-blur-2xl w-screen flex justify-center md:justify-start">
+            <button onClick={() => setOpen(false)}>
+              <FontAwesomeIcon icon={faXmarkCircle} className="text-white" />
+            </button>
+          </div>
+          <Form />
+        </div>
+      )}
       <div className="flex flex-col">
         <div className="introsection h-[80vh] md:h-[70vh] bg-red-100">
           <Nav />
