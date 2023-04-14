@@ -20,22 +20,13 @@ const Landing = () => {
   return (
     <>
       <GoToTop />
-      {open && (
-        <div className="absolute z-50">
-          <div className="py-2 px-10 bg-red-400/30 backdrop-blur-2xl w-screen flex justify-center md:justify-start">
-            <button onClick={() => setOpen(false)}>
-              <FontAwesomeIcon icon={faXmarkCircle} className="text-white" />
-            </button>
-          </div>
-          <Form />
-        </div>
-      )}
+
       <div className="flex flex-col">
         <div className="introsection h-[80vh] md:h-[70vh] bg-red-100">
           <Nav />
 
-          <div className="flex flex-col px-[25px] sm:px-[30px] md:px-[70px] w-screen max-w-[1440px] justify-center">
-            <div className="landing-page-text flex flex-col gap-1 text-white w-[90%] py-5 ">
+          <div className="flex flex-col px-[25px] sm:px-[30px] md:px-[70px] w-screen max-w-[1440px] justify-center items-left align-center h-full gap-4">
+            <div className="landing-page-text flex flex-col gap-1 text-white w-[90%]">
               <h1 className="imp text-[60px] sm:text-[60px] md:text-[70px] font-bold leading-tight sm:leading-tight">
                 Skill Acquisition Program
               </h1>
@@ -45,7 +36,7 @@ const Landing = () => {
                 education
               </span>
             </div>
-            <button className="w-[150px]" onClick={() => setOpen(true)}>
+            <button className="w-[150px]">
               <div className="item text-white text-sm flex gap-3 justify-center p-3 h-fit rounded-lg hover:bg-[#e95656]  ease-in-out duration-150 bg-[#e95656]/70">
                 Dive in
               </div>
