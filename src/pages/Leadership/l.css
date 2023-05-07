@@ -1,0 +1,9 @@
+.profile {
+  border-radius: 3px;
+}
+
+.testimonials {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)),
+    url("https://www.uwinnipeg.ca/future-student/images/international1.jpg");
+  background-size: cover;
+}

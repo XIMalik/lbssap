@@ -1,0 +1,22 @@
+.navigation {
+  z-index: 500;
+}
+
+.navlink {
+  font-size: 12px;
+  transition: ease-in-out;
+  transition-duration: 300ms;
+  height: 100%;
+  font-weight: bolder;
+  color: rgba(0, 0, 0, 0.337);
+}
+
+.navlink:hover {
+  color: rgba(0, 0, 0, 0.663);
+  font-size: 12.5px;
+}
+
+.active {
+  color: black;
+  font-size: 15px;
+}

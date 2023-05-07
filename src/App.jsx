@@ -9,6 +9,10 @@ import Formtest from "./pages/FormTest/Formtest";
 import Course from "./pages/Course/Course";
 import Formsubmit from "./pages/Formsubmit";
 import About from "./pages/About/About";
+import Leadership from "./pages/Leadership/Leadership";
+import Facilitators from "./pages/Facilitators/Facilitators";
+import Coordinators from "./pages/Coordinators/Coordinators";
+import Apply from "./pages/Apply/Apply";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -22,6 +26,10 @@ function App() {
         <Route exact path="/formconfirmation" element={<Formsubmit />} />
         <Route exact path="/aboutsap" element={<About />} />
         <Route exact path="/form" element={<Formtest />} />
+        <Route exact path="/leadership" element={<Leadership />} />
+        <Route exact path="/facilitators" element={<Facilitators />} />
+        <Route exact path="/coordinators" element={<Coordinators />} />
+        <Route exact path="/apply" element={<Apply />} />
       </Routes>
     </BrowserRouter>
   );

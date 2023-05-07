@@ -20,3 +20,27 @@
   opacity: 1;
   visibility: visible;
 } */
+
+.testimonial {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  place-items: center;
+  gap: 5px;
+}
+
+.testimonial span {
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.582);
+}
+
+.testimonial .icon {
+  color: rgba(0, 0, 0, 0.357);
+}
+
+.testimonial:hover span {
+  color: white;
+  transition: ease-in-out;
+  transition-duration: 100ms;
+}

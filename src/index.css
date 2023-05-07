@@ -8,4 +8,5 @@
 
 body {
   cursor: url(/public/images/bg.jpg), auto;
+  background-color: white !important;
 }
