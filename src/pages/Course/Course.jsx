@@ -26,6 +26,8 @@ const Course = () => {
   return (
     <div>
       <GoToTop />
+      <Nav />
+
       <div className="web h-[60vh] bg-red-100">
         {open && (
           <div className="sticky top-0 z-50">
@@ -42,7 +44,6 @@ const Course = () => {
             </div>
           </div>
         )}
-        <Nav />
       </div>
       <div className="contain px-[20px] sm:px-[30px] md:px-[70px] py-5 w-screen max-w-[1440px] justify-center">
         <div className=" bg-white shadow-xl stick fixed flex flex-col gap-3 bottom-5 border-[0.5px] border-solid border-red-400/20 rounded-xl h-fit w-[150px] p-1 right-5">
