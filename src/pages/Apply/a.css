@@ -17,10 +17,16 @@
   transition-duration: 100ms;
   border-radius: 2px;
   display: flex;
-  gap: 5px;
+  gap: 10px;
   align-items: center;
+  font-size: 14px;
 }
 .course:hover {
   padding: 4px;
-  color: rgba(0, 0, 255, 0.235);
+  color: rgb(202 138 4);
+}
+
+.side {
+  background-image: url("https://images.unsplash.com/photo-1518976024611-28bf4b48222e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fGNvdXJzZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60");
+  background-size: cover;
 }

@@ -7,16 +7,46 @@
   transition: ease-in-out;
   transition-duration: 300ms;
   height: 100%;
-  font-weight: bolder;
-  color: rgba(0, 0, 0, 0.337);
+  font-weight: 400;
+  color: #000711;
 }
 
 .navlink:hover {
   color: rgba(0, 0, 0, 0.663);
-  font-size: 12.5px;
 }
 
 .active {
-  color: black;
-  font-size: 15px;
+  font-size: 14px;
+}
+
+.mobile-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: white;
+  transition: transform 0.6s ease-in-out;
+  transform: translateY(-100%);
+  z-index: 500;
+}
+
+.mobile-nav--open {
+  transform: translateY(10%);
+}
+
+.mobile-navbutton {
+  z-index: -51;
+}
+
+.mobile-navv {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: WHITE;
+  transition: transform 0.6s ease-in-out;
+  transform: translateX(200%);
+  z-index: 5000;
+}
+
+.mobile-navv--open {
+  transform: translateX(100%);
 }

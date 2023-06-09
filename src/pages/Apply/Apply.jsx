@@ -5,7 +5,11 @@ import GoToTop from "../../components/GoToTop/GoToTop";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import PersonCard from "../../components/PersonCard";
 import "./a.css";
-import { faPencil, faXmark } from "@fortawesome/free-solid-svg-icons";
+import {
+  faArrowLeft,
+  faPencil,
+  faCircle,
+} from "@fortawesome/free-solid-svg-icons";
 
 const Apply = () => {
   const [open, setOpen] = useState(false);
@@ -19,109 +23,112 @@ const Apply = () => {
           onClick={() => setOpen(false)}
           className="w-screen z-10 h-screen bg-white/5 backdrop-blur flex justify-center items-center "
         >
-          <div className="lg:w-[70%] lg:h-[60%] w-[80%] h-[80%] bg-[#040715] shadow-2xl flex flex-col justify-center">
-            <div className="p-5 bg-white h-[90%] flex flex-col justify-center items-center">
-              <h1 className="text-center text-lg imp">All courses</h1>
-              <h1 className="text-center text-sm text-black/50">
-                NOTE: Click on your desired course to read more about the
-                course.{" "}
+          <div className="lg:w-[70%] lg:h-[60%] w-[80%] h-[80%] shadow-2xl flex justify-center">
+            <div className="p-5 w-[60%] bg-white h-[90%] flex flex-col justify-center items-start">
+              <h1 className="text-center text-md imp mb-1">All courses</h1>
+              <h1 className="text-center text-xs text-black/50">
+                Click on your desired course to read more about the course.{" "}
               </h1>
-              <div className="courses flex flex-col gap-1 justify-center items-center p-8">
+              <div className="courses flex flex-col gap-1 justify-start items-start py-2">
                 <div className="course">
-                  <FontAwesomeIcon icon={faXmark} />
+                  <FontAwesomeIcon icon={faCircle} className="text-[5px]" />
                   <h1>Web Development</h1>
                 </div>
                 <div className="course">
-                  <FontAwesomeIcon icon={faXmark} />
+                  <FontAwesomeIcon icon={faCircle} className="text-[5px]" />
 
                   <h1>Photography</h1>
                 </div>
                 <div className="course">
-                  <FontAwesomeIcon icon={faXmark} />
+                  <FontAwesomeIcon icon={faCircle} className="text-[5px]" />
 
                   <h1>UI Design</h1>
                 </div>
                 <div className="course">
-                  <FontAwesomeIcon icon={faXmark} />
+                  <FontAwesomeIcon icon={faCircle} className="text-[5px]" />
 
                   <h1>Project Management</h1>
                 </div>
               </div>
             </div>
+            <div className="side bg-yellow-600/90 w-[40%] h-full"></div>
           </div>
         </div>
       </div>
 
       <div className=" flex flex-col py-5 gap-5">
         <div className="flex flex-col gap-1">
-          <span className="text-center text-blue-200">
+          <span className="text-center text-black/60 text-sm">
             Welcome to the applications page
           </span>
           <h1 className="text-center text-3xl text-[#040715] imp sticky top-10">
-            Kindly read
+            Kindly read carefully
           </h1>
         </div>
         <div className="sm:px-[25px] md:px-11 py-12 flex flex-col gap-12 justify-center items-center max-w-[1440px]">
           <div className=" w-[90%] flex flex-col gap-3 text-black/50">
             <span>Dear Prospective Student,</span>
             <span>
-              Welcome to our June 2023 diet and second online training programme
-              this year.
+              We are delighted to welcome you to our highly anticipated online
+              training program. Be prepared to embark on an incredible learning
+              journey that will equip you with essential skills and empower you
+              to thrive in today's ever-evolving world.
             </span>
             <span>
-              Our “Live Online Classes” will run from Monday to Wednesday
-              weekly, while you have the remaining days of the week till Sunday
-              to practice all you have been taught on each module, in the first
-              three days of the week. We are doing everything by God’s grace to
-              ensure that you have a great and seamless learning experience.
+              Our program, SkillQuest, has been carefully designed to offer you
+              the utmost convenience and flexibility while maintaining the
+              highest standards of learning. Starting from Monday and continuing
+              through Wednesday every week, you will participate in engaging
+              live sessions led by expert instructors. These sessions will
+              provide you with valuable insights, practical knowledge, and the
+              opportunity to interact with fellow learners.
+            </span>
+            <span>
+              But that's not all! We understand the importance of practice and
+              hands-on application when it comes to skill acquisition. That's
+              why we have dedicated the remaining days of the week, Thursday to
+              Sunday, for you to immerse yourself in honing the skills you've
+              learned during the live classes. This unique combination of
+              structured instruction and self-paced practice ensures a
+              comprehensive and impactful learning experience.
             </span>
             <span className="font-bold">
-              In view of the above, please note that this diet is strictly for
-              individuals with functional computer systems and internet-enabled
-              mobile phones. Please be informed that because of our Live
-              practical sessions it is for those that have the control of their
-              time.
+              To make the most of this program, please ensure that you have
+              access to a functional computer system and an internet-enabled
+              mobile phone. This will enable you to actively participate in our
+              live sessions and fully engage with the course materials. The
+              flexibility of our program also requires individuals who can
+              manage their time effectively, allowing for a seamless integration
+              of learning into their daily routines.
             </span>
             <span>
-              Intending participants must have unrestricted internet access to
-              enable them to fully participate and engage in this edition of our
-              skills acquisition programme. This is because all class training,
-              discussions, assignments/projects and certifications will be
-              conducted online for the duration of twenty-one days (21) this
-              session.
+              To secure your spot in this highly sought-after training program,
+              we kindly request that you register through our online portal
+              between Sunday, April 23 and Wednesday, May 03, 2023. Please note
+              that availability is limited, and slots will be filled on a
+              first-come, first-served basis. Visit the courses page and select
+              your desired course to explore more details and submit your
+              application. Keep in mind that you can only apply to attend{" "}
+              <strong>one</strong> of the listed skills as the training for all
+              courses will be conducted simultaneously.
             </span>
             <span>
-              In order to attend, applicants must register through our online
-              portal from Sunday, April 23 to Wednesday, May 03, 2023 subject to
-              the availability of unfilled slots.
+              If you have any further inquiries or need assistance, our
+              dedicated team is here to help. You can reach us via telephone at{" "}
+              <strong>+234 809 449 4441</strong> or by email at{" "}
+              <strong>skillquest@edu.ng</strong>. We are committed to ensuring
+              your learning journey is smooth, enjoyable, and fruitful.
             </span>
             <span>
-              Kindly select your desired option to find out more information
-              about the course. (Please note that applicants can only apply to
-              attend ONE of the listed skills) as the training for all the
-              available courses will be taking place simultaneously.
+              Don't miss this incredible opportunity to enhance your skills,
+              unlock your potential, and shape a brighter future for yourself.
+              We look forward to having you as part of our dynamic and
+              enthusiastic learning community.
             </span>
-            <span>
-              For further enquiries kindly contact us via telephone or email:
-            </span>
-            <div className="flex flex-col gap-3">
-              <div>
-                Call:
-                <a href="tel:+234 809 449 4441 ">
-                  <span>+234 809 449 4441 </span>
-                </a>
-              </div>
-              <div>
-                Email:
-                <a href="mailto:dsapdaystar@gmail.com ">
-                  <span>dsapdaystar@gmail.com</span>
-                </a>
-              </div>
-            </div>
           </div>
           <button
             onClick={() => setOpen(!open)}
-            className="imp text-sm text-white bg-[#040715] px-5 py-3 rounded-sm shadow-xl hover:shadow-xl ease-in-out duration-150"
+            className="imp text-sm text-white bg-yellow-600 px-5 py-3 rounded-lg shadow-xl hover:shadow-xl ease-in-out duration-150"
           >
             See all available courses
           </button>

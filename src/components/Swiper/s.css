@@ -1,0 +1,30 @@
+.slide {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; /* Updated property */
+  width: 100%;
+  background-color: white;
+  padding: 15px;
+  border-radius: 5px;
+  overflow: scroll;
+  padding: 20px;
+}
+
+.slide:hover {
+  background-color: rgba(246, 236, 224, 0.719);
+  transition: ease-in-out;
+  transition-duration: 300ms;
+}
+
+.slide h1 {
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.slide p {
+  font-size: 15px;
+  line-height: 25px;
+  color: rgba(0, 0, 0, 0.544);
+  text-align: center;
+}

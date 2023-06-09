@@ -2,8 +2,8 @@ import React from "react";
 import Nav from "../../components/Nav/Nav";
 import Footer from "../../components/Footer/Footer";
 import GoToTop from "../../components/GoToTop/GoToTop";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import PersonCard from "../../components/PersonCard";
+import { NavLink } from "react-router-dom";
+import "./c.css";
 
 const Coordinators = () => {
   return (
@@ -18,13 +18,7 @@ const Coordinators = () => {
             Coordinators
           </h1>
         </div>
-        <div className="profiles h-fit sm:h-fit flex flex-wrap sm:flex-row items-center gap-2 md:gap-0 justify-center md:justify-evenly align-center px-7 sm:px-[25px] md:px-11 w-screen max-w-[1440px]">
-          <PersonCard />
-          <PersonCard />
-          <PersonCard />
-          <PersonCard />
-          <PersonCard />
-        </div>
+        <div className="grid"></div>
       </div>
       <Footer />
     </div>

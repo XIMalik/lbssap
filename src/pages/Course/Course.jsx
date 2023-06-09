@@ -15,6 +15,8 @@ import "./c.css";
 import Form from "../../components/Form/Form";
 import Footer from "../../components/Footer/Footer";
 import GoToTop from "../../components/GoToTop/GoToTop";
+import Swiper from "../../components/Swiper/Swiper";
+import Swiperfunction from "../../components/Swiper/Swiper";
 
 const Course = () => {
   const [open, setOpen] = useState(false);
@@ -45,23 +47,25 @@ const Course = () => {
           </div>
         )}
       </div>
-      <div className="contain px-[20px] sm:px-[30px] md:px-[70px] py-5 w-screen max-w-[1440px] justify-center">
-        <div className=" bg-white shadow-xl stick fixed flex flex-col gap-3 bottom-5 border-[0.5px] border-solid border-red-400/20 rounded-xl h-fit w-[150px] p-1 right-5">
-          <button
-            className="w-full"
-            type="submit"
-            onClick={() => setOpen(true)}
-          >
-            <div className="w-fit text-white text-sm justify-center p-3 h-fit rounded-lg hover:bg-[#e95656] ease-in-out duration-150 bg-[#e95656]/70 ">
+
+      <div className="contain px-[15px] sm:px-[30px] md:px-[50px] py-5 w-screen max-w-[1440px] justify-center">
+        <div
+          onClick={() => setOpen(true)}
+          className=" bg-white shadow-2xl stick fixed gap-3 bottom-5 hover:bg-yellow-600 flex justify-center items-center border-[0.1px] ease-in-out duration-500 border-solid border-yellow-600 rounded-full h-fit w-[100px] right-5"
+        >
+          <button className="w-full" type="submit">
+            <div className="w-full text-black text-sm justify-center p-3 h-fit rounded-full ease-in-out duration-150">
               Register
             </div>
           </button>
         </div>
-        <div className="stick">
-          <div className="maincontent flex flex-col rounded-lg w-[100%] md:w-[85%] gap-10 p-5">
-            <div className="flex flex-col gap-1">
-              <span className="text-xs text-red-400">{date}</span>
-              <h1 className="text-[50px] sm:text-[60px] font-extrabold text-red-400 imp">
+        <div className="stick flex gap-3 h-[550px]">
+          <div className="maincontent flex flex-col w-[100%] md:w-[75%] gap-10 py-5">
+            <div className="flex flex-col gap-3">
+              <span className="text-sm font-semibold text-black/50">
+                {date}
+              </span>
+              <h1 className="text-2xl font-extrabold text-black imp">
                 Web Development
               </h1>
               <span className="text-sm text-black/50">
@@ -77,7 +81,7 @@ const Course = () => {
                   <div className="p-3 rounded-lg bg-slate-200 flex justify-center items-center h-fit align-center">
                     <FontAwesomeIcon
                       icon={faCalendar}
-                      className="text-red-500 text-sm"
+                      className="text-black text-sm"
                     />
                   </div>
                   <div>
@@ -91,7 +95,7 @@ const Course = () => {
                   <div className="p-3 rounded-lg bg-slate-200 flex justify-center items-center h-fit align-center">
                     <FontAwesomeIcon
                       icon={faLocationPin}
-                      className="text-red-500 text-sm"
+                      className="text-black text-sm"
                     />
                   </div>
                   <div>
@@ -125,22 +129,25 @@ const Course = () => {
                   <div className="p-3 rounded-lg bg-slate-200 flex justify-center items-center h-fit align-center">
                     <FontAwesomeIcon
                       icon={faClock}
-                      className="text-red-500 text-sm"
+                      className="text-black text-sm"
                     />
                   </div>
-                  <h1 className="font-bold text-sm text-red-400">5 weeks</h1>
+                  <h1 className="font-bold text-sm text-black">5 weeks</h1>
                 </div>
                 <div className=" rounded-lg flex gap-3 max-w-[400px] align-center items-center">
                   <div className="p-3 rounded-lg bg-slate-200 flex justify-center items-center h-fit align-center">
                     <FontAwesomeIcon
                       icon={faPeopleGroup}
-                      className="text-red-500 text-sm"
+                      className="text-black text-sm"
                     />
                   </div>
-                  <h1 className="font-bold text-sm text-red-400">In-person</h1>
+                  <h1 className="font-bold text-sm text-black">In-person</h1>
                 </div>
               </div>
             </div>
+          </div>
+          <div className="h-[100%] bg-yellow-400 w-[25%]">
+            <h1>hello world</h1>
           </div>
         </div>
       </div>

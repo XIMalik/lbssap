@@ -1,25 +1,11 @@
 .introsection {
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url(/public/images/pencils.jpg);
   height: 50vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.527)),
+    url("https://images.unsplash.com/photo-1531482615713-2afd69097998?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8YmxhY2slMjBzdHVkZW50fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60");
+  background-size: cover;
 }
-
-/* .modal {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  opacity: 0;
-  visibility: hidden;
-  transition: opacity 0.3s ease, visibility 0.3s ease;
-}
-
-.modal.open {
-  opacity: 1;
-  visibility: visible;
-} */
 
 .testimonial {
   display: flex;
@@ -28,6 +14,7 @@
   align-items: center;
   place-items: center;
   gap: 5px;
+  border-radius: 15px;
 }
 
 .testimonial span {
@@ -40,7 +27,63 @@
 }
 
 .testimonial:hover span {
-  color: white;
   transition: ease-in-out;
   transition-duration: 100ms;
+}
+
+.grid-item {
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.grid-containerr {
+  display: grid;
+  grid-gap: 15px; /* Gap between grid items */
+}
+
+/* For small displays */
+@media (max-width: 1023px) {
+  .grid-containerr {
+    grid-template-columns: 1fr 1fr; /* 2 columns on small displays */
+  }
+  .hotelimagecontainerr {
+    height: 200px;
+  }
+}
+@media (min-width: 1024px) {
+  .grid-containerr {
+    grid-template-columns: 1fr 1fr 1fr 1fr; /* 2 columns on small displays */
+  }
+  .hotelimagecontainerr {
+    height: 200px;
+  }
+}
+
+@media (max-width: 640px) {
+  .grid-containerr {
+    grid-template-columns: 1fr; /* 2 columns on small displays */
+  }
+  .hotelimagecontainerr {
+    height: 150px;
+  }
+}
+
+/* For mobile displays */
+@media (max-width: 480px) {
+  .grid-containerr {
+    grid-template-columns: 1fr; /* 1 column on mobile displays */
+  }
+  .hotelimagecontainerr {
+    height: 150px;
+  }
+}
+
+.grid-itemm {
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
 }

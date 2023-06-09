@@ -3,10 +3,12 @@
 @tailwind utilities;
 
 .imp {
-  font-family: "Nunito Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 body {
   cursor: url(/public/images/bg.jpg), auto;
   background-color: white !important;
 }
+
+/* font-family: "Nunito Sans", sans-serif; */
