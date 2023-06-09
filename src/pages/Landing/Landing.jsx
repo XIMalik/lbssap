@@ -163,7 +163,7 @@ const Landing = () => {
             <h6 className="text-xs mb-5 text-[#333]">
               Skills offered by MISAP
             </h6>
-            <div className="grid-containerr mb-12 px-12">
+            <div className="grid-containerr mb-12 px-2 md:px-12">
               <div className="grid-item">
                 {" "}
                 <Card
