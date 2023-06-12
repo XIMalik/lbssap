@@ -1,13 +1,3 @@
-.profile {
-  border-radius: 3px;
-}
-
-.testimonials {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)),
-    url("https://www.uwinnipeg.ca/future-student/images/international1.jpg");
-  background-size: cover;
-}
-
 .grid-item {
   height: 400px;
   display: flex;
@@ -15,14 +5,14 @@
   gap: 10px;
 }
 
-.profiles-grid-containerr {
+.fac-grid-containerr {
   display: grid;
   grid-gap: 15px; /* Gap between grid items */
 }
 
 /* For small displays */
 @media (max-width: 1023px) {
-  .profiles-grid-containerr {
+  .fac-grid-containerr {
     grid-template-columns: 1fr 1fr 1fr; /* 2 columns on small displays */
   }
   .hotelimagecontainerr {
@@ -30,8 +20,8 @@
   }
 }
 @media (min-width: 1024px) {
-  .profiles-grid-containerr {
-    grid-template-columns: 1fr 1fr 1fr; /* 2 columns on small displays */
+  .fac-grid-containerr {
+    grid-template-columns: 1fr 1fr 1fr 1fr; /* 2 columns on small displays */
   }
   .hotelimagecontainerr {
     height: 200px;
@@ -39,7 +29,7 @@
 }
 
 @media (max-width: 640px) {
-  .profiles-grid-containerr {
+  .fac-grid-containerr {
     grid-template-columns: 1fr 1fr; /* 2 columns on small displays */
   }
   .hotelimagecontainerr {
@@ -49,7 +39,7 @@
 
 /* For mobile displays */
 @media (max-width: 480px) {
-  .profiles-grid-containerr {
+  .fac-grid-containerr {
     grid-template-columns: 1fr; /* 1 column on mobile displays */
   }
   .hotelimagecontainerr {
@@ -63,11 +53,4 @@
   flex-direction: column;
   gap: 10px;
   width: 100%;
-}
-
-.portrait {
-  background-image: url("https://images.unsplash.com/photo-1521119989659-a83eee488004?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8cG9ydHJhaXR8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60");
-  background-size: cover;
-  background-position-y: -50px;
-  background-repeat: no-repeat;
 }

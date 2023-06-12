@@ -13,44 +13,35 @@ const Leadership = () => {
 
       <div className=" flex flex-col py-5 gap-5">
         <div className="flex flex-col gap-1">
-          <span className="text-center text-blue-200">Meet</span>
-          <h1 className="text-center text-3xl text-[#040715] imp sticky top-10">
+          <h1 className="text-center text-xl font-bold text-[#040715] imp sticky top-10">
             The Team
           </h1>
         </div>
-        <div className="profiles h-fit sm:h-[80vh] flex flex-col sm:flex-row gap-5 items-center justify-center align-center px-7 sm:px-[25px] md:px-11 w-screen max-w-[1440px]">
-          <div className="profile h-[60vh] w-fit sm:h-[500px] sm:w-fit flex flex-col rounded-sm overflow-hidden">
-            <div className="w-[400px] h-[400px] bg-black overflow-hidden object-cover">
-              <img
-                src="https://www.hollywoodreporter.com/wp-content/uploads/2022/08/GettyImages-1409634425-H-2022.jpg?w=1296"
-                alt=""
-                className="object-cover w-[100%] h-[100%] ease-out duration-500"
-              />
+        <div className="flex justify-center items-center w-screen">
+          <div className="profiles profiles-grid-containerr w-full max-w-[1440px] px-[15px] sm:px-[25px] lg:px-[50px]">
+            <div className="profile profile-grid-itemm bg-red-300 h-[40vh] sm:h-[400px]">
+              <div className="img h-[70%] w-full portrait"></div>
+              <div className="text w-full h-[30%] bg-gray-100 p-3 flex flex-col gap-1 justify-center items-center">
+                <span className="imp font-bold">Dr. Uchenna Uzo</span>
+                <span className=" text-black/60">
+                  Lead Innovator, SkillQuest
+                </span>
+              </div>{" "}
             </div>
-            <div className="p-5 ease-in-out duration-200 rounded-sm relative h-[30%] w-[100%] text-black imp flex flex-col justify-center items-center">
-              <h1 className="other flex flex-col font-bold gap-3 items-start text-xl">
-                Ikemba Oduka
-              </h1>
-              <p className=" text-black/50 text-xs leading-relaxed">
-                Founder, MISAP{" "}
-              </p>
+            <div className="profile profile-grid-itemm h-[40vh] sm:h-[400px]">
+              <div className="img h-[70%] w-full portrait"></div>
+              <div className="text w-full h-[30%] bg-gray-100 p-3 flex flex-col gap-1 justify-center items-center">
+                <span className="imp font-bold">Malik Awesu</span>
+                <span className=" text-black/60">Co-Founder, SkillQuest</span>
+              </div>
             </div>
-          </div>
-          <div className="profile h-[60vh] w-fit sm:h-[500px] sm:w-fit flex flex-col rounded-sm overflow-hidden">
-            <div className="w-[400px] h-[400px] bg-black overflow-hidden object-cover">
-              <img
-                src="https://img.texasmonthly.com/2023/02/jonathan-majors-antman.jpg?auto=compress&crop=faces&fit=fit&fm=jpg&h=0&ixlib=php-3.3.1&q=45&w=1250"
-                alt=""
-                className="object-cover w-[100%] h-[100%] ease-out duration-500"
-              />
-            </div>
-            <div className=" ease-in-out duration-200 rounded-sm relative h-[30%] w-[100%] text-black imp flex flex-col justify-center items-center">
-              <h1 className="other flex flex-col gap-3 items-start text-xl">
-                Malik Awesu{" "}
-              </h1>
-              <p className=" text-black/50 text-xs leading-relaxed">
-                CTO, MISAP{" "}
-              </p>
+
+            <div className="profile profile-grid-itemm bg-red-300 h-[40vh] sm:h-[400px]">
+              <div className="img h-[70%] w-full portrait"></div>
+              <div className="text w-full h-[30%] bg-gray-100 p-3 flex flex-col gap-1 justify-center items-center">
+                <span className="imp font-bold">Ikemba Oduka</span>
+                <span className=" text-black/60">Co-Founder, SkillQuest</span>
+              </div>{" "}
             </div>
           </div>
         </div>

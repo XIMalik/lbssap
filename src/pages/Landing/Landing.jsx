@@ -1,4 +1,3 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { useState } from "react";
 import Footer from "../../components/Footer/Footer";
 import GoToTop from "../../components/GoToTop/GoToTop";
@@ -163,7 +162,7 @@ const Landing = () => {
             <h6 className="text-xs mb-5 text-[#333]">
               Skills offered by MISAP
             </h6>
-            <div className="grid-containerr mb-12 px-2 md:px-12">
+            <div className="courses-grid-containerr mb-5 px-2 md:px-12">
               <div className="grid-item">
                 {" "}
                 <Card
