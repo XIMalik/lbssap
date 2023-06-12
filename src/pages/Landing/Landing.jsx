@@ -84,7 +84,7 @@ const Landing = () => {
                 </div>
                 <div className="text flex flex-col items-start gap-5">
                   <h1 className="text-lg font-medium">MISAP is reputed for:</h1>
-                  <ul className="text-black/50 list-disc flex flex-col gap-3 w-[80%] px-5">
+                  <ul className="text-black/50 list-disc flex flex-col gap-3 w-[100%] px-5">
                     <li>
                       Having trained and graduated over 13,890 individuals many
                       of whom are running profitable businesses within and

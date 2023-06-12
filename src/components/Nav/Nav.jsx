@@ -132,7 +132,7 @@ const Nav = () => {
               <div className="nav links imp flex flex-col px-6 w-full">
                 <div className="navlinkk hover:bg-yellow-500/50 rounded-lg ease-in-out duration-[200ms]">
                   <NavLink
-                    to="/locations"
+                    to="/"
                     style={({ isActive }) => ({
                       color: isActive ? "active" : "inactive",
                     })}
@@ -144,7 +144,7 @@ const Nav = () => {
                 </div>
                 <div className="navlinkk  hover:bg-yellow-500/50 rounded-lg ease-in-out duration-[200ms]">
                   <NavLink
-                    to="/thingstodo"
+                    to="/skills"
                     style={({ isActive }) => ({
                       color: isActive ? "active" : "incative",
                     })}
@@ -156,7 +156,7 @@ const Nav = () => {
                 </div>
                 <div className="navlinkk  hover:bg-yellow-500/50 rounded-lg ease-in-out duration-[200ms]">
                   <NavLink
-                    to="/wheretostay"
+                    to="/leadership"
                     style={({ isActive }) => ({
                       color: isActive ? "active" : "inactive",
                     })}
@@ -168,7 +168,7 @@ const Nav = () => {
                 </div>
                 <div className="navlinkk  hover:bg-yellow-500/50 rounded-lg ease-in-out duration-[200ms]">
                   <NavLink
-                    to="/visitorinformation"
+                    to="/facilitators"
                     style={({ isActive }) => ({
                       color: isActive ? "active" : "incative",
                     })}
@@ -180,7 +180,7 @@ const Nav = () => {
                 </div>
                 <div className="navlinkk  hover:bg-yellow-500/50 rounded-lg ease-in-out duration-[200ms]">
                   <NavLink
-                    to="/articles"
+                    to="/coordinators"
                     style={({ isActive }) => ({
                       color: isActive ? "active" : "inactive",
                     })}
@@ -192,7 +192,7 @@ const Nav = () => {
                 </div>
                 <div className="navlinkk  hover:bg-yellow-500/50 rounded-lg ease-in-out duration-[200ms]">
                   <NavLink
-                    to="/articles"
+                    to="/reachus"
                     style={({ isActive }) => ({
                       color: isActive ? "active" : "inactive",
                     })}
