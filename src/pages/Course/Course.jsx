@@ -48,7 +48,7 @@ const Course = () => {
         )}
       </div>
 
-      <div className="contain px-[15px] sm:px-[30px] md:px-[50px] py-5 w-screen max-w-[1440px] justify-center">
+      <div className="contain h-[100vh] mb-12 flex px-[15px] sm:px-[30px] md:px-[50px] py-5 w-screen max-w-[1440px] justify-center">
         <div
           onClick={() => setOpen(true)}
           className=" bg-white shadow-2xl stick fixed gap-3 bottom-5 hover:bg-yellow-600 flex justify-center items-center border-[0.1px] ease-in-out duration-500 border-solid border-yellow-600 rounded-full h-fit w-[100px] right-5"
@@ -146,7 +146,7 @@ const Course = () => {
               </div>
             </div>
           </div>
-          <div className="h-[100%] bg-yellow-400 w-[25%]">
+          <div className="h-[100%] bg-yellow-400 hidden md:flex md:w-[25%]">
             <h1>hello world</h1>
           </div>
         </div>

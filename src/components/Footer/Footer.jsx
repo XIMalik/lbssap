@@ -4,7 +4,7 @@ import logo from "/public/images/sqblackbold.png";
 
 const Footer = () => {
   return (
-    <footer className="footer relative bg-black/5 border-t-[0.5px] border-black/5 py-10 bottom-0 w-[100%] px-[25px] md:px-[50px] max-w-[1600px]">
+    <footer className="footer relative bg-black/5 border-t-[0.5px] border-black/5 py-5 bottom-0 w-[100%] px-[25px] md:px-[50px] max-w-[1600px]">
       <div className="flex  justify-between items-center align-center gap-5 text-sm  w-full">
         <div className=" w-[150px]">
           <NavLink to="/">

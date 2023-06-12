@@ -29,7 +29,7 @@ function App() {
         <Route exact path="/leadership" element={<Leadership />} />
         <Route exact path="/facilitators" element={<Facilitators />} />
         <Route exact path="/coordinators" element={<Coordinators />} />
-        <Route exact path="/apply" element={<Apply />} />
+        <Route exact path="/applynow" element={<Apply />} />
       </Routes>
     </BrowserRouter>
   );

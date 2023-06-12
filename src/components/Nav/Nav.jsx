@@ -38,7 +38,7 @@ const Nav = () => {
                       color: isActive ? "active" : "inactive",
                     })}
                   >
-                    <h1 className="text-md w-[100%] border-b-[0.5px] py-4 border-black/5 border-solid text-center">
+                    <h1 className="text-sm w-[100%] border-b-[0.5px] py-3 border-black/5 border-solid text-center">
                       Home
                     </h1>
                   </NavLink>
@@ -50,7 +50,7 @@ const Nav = () => {
                       color: isActive ? "active" : "incative",
                     })}
                   >
-                    <h1 className="text-md w-[100%] border-b-[0.5px] py-4 border-black/5 border-solid text-center">
+                    <h1 className="text-sm w-[100%] border-b-[0.5px] py-3 border-black/5 border-solid text-center">
                       Courses
                     </h1>
                   </NavLink>
@@ -62,7 +62,7 @@ const Nav = () => {
                       color: isActive ? "active" : "inactive",
                     })}
                   >
-                    <h1 className="text-md w-[100%] border-b-[0.5px] py-4 border-black/5 border-solid text-center">
+                    <h1 className="text-sm w-[100%] border-b-[0.5px] py-3 border-black/5 border-solid text-center">
                       Leadership
                     </h1>
                   </NavLink>
@@ -74,7 +74,7 @@ const Nav = () => {
                       color: isActive ? "active" : "incative",
                     })}
                   >
-                    <h1 className="text-md w-[100%] border-b-[0.5px] py-4 border-black/5 border-solid text-center">
+                    <h1 className="text-sm w-[100%] border-b-[0.5px] py-3 border-black/5 border-solid text-center">
                       Facilitators
                     </h1>
                   </NavLink>
@@ -86,7 +86,7 @@ const Nav = () => {
                       color: isActive ? "active" : "inactive",
                     })}
                   >
-                    <h1 className="text-md w-[100%] border-b-[0.5px] py-4 border-black/5 border-solid text-center">
+                    <h1 className="text-sm w-[100%] border-b-[0.5px] py-3 border-black/5 border-solid text-center">
                       Cooridantors
                     </h1>
                   </NavLink>
@@ -98,14 +98,14 @@ const Nav = () => {
                       color: isActive ? "active" : "inactive",
                     })}
                   >
-                    <h1 className="text-md w-[100%] border-b-[0.5px] py-4 border-black/5 border-solid text-center">
+                    <h1 className="text-sm w-[100%] border-b-[0.5px] py-3 border-black/5 border-solid text-center">
                       Reach us
                     </h1>
                   </NavLink>
                 </div>
                 <div className="flex w-full mt-5 justify-center">
                   <NavLink to="/applynow">
-                    <button className="imp w-full text-sm text-white bg-yellow-500/50 hover:bg-yellow-500 shadow-xl px-5 py-2 ease-in-out duration-150">
+                    <button className="imp w-full text-sm text-white bg-yellow-500/50 hover:bg-yellow-500 shadow-xl px-5 py-3 ease-in-out duration-150">
                       Apply Now
                     </button>
                   </NavLink>
@@ -126,7 +126,7 @@ const Nav = () => {
         {
           <div
             onClick={() => setMobileOpen(false)}
-            className="w-screen flex sm:hidden lg:hidden bg-white shadow-xl rounded-xl overflow-hidden h-[75vh] relative flex-col yt justify-center items-center"
+            className="w-screen flex sm:hidden lg:hidden bg-white shadow-xl rounded-xl overflow-hidden h-[65vh] relative flex-col yt justify-center items-center"
           >
             <div className="flex flex-col top-8 gap-5 absolute z-50 h-full w-full ">
               <div className="nav links imp flex flex-col px-6 w-full">
@@ -137,7 +137,7 @@ const Nav = () => {
                       color: isActive ? "active" : "inactive",
                     })}
                   >
-                    <h1 className="text-md w-[100%] border-b-[0.5px] py-4 border-black/5 border-solid text-center">
+                    <h1 className="text-sm w-[100%] border-b-[0.5px] py-3 border-black/5 border-solid text-center">
                       Home
                     </h1>
                   </NavLink>
@@ -149,7 +149,7 @@ const Nav = () => {
                       color: isActive ? "active" : "incative",
                     })}
                   >
-                    <h1 className="text-md w-[100%] border-b-[0.5px] py-4 border-black/5 border-solid text-center">
+                    <h1 className="text-sm w-[100%] border-b-[0.5px] py-3 border-black/5 border-solid text-center">
                       Courses
                     </h1>
                   </NavLink>
@@ -161,7 +161,7 @@ const Nav = () => {
                       color: isActive ? "active" : "inactive",
                     })}
                   >
-                    <h1 className="text-md w-[100%] border-b-[0.5px] py-4 border-black/5 border-solid text-center">
+                    <h1 className="text-sm w-[100%] border-b-[0.5px] py-3 border-black/5 border-solid text-center">
                       Leadership
                     </h1>
                   </NavLink>
@@ -173,7 +173,7 @@ const Nav = () => {
                       color: isActive ? "active" : "incative",
                     })}
                   >
-                    <h1 className="text-md w-[100%] border-b-[0.5px] py-4 border-black/5 border-solid text-center">
+                    <h1 className="text-sm w-[100%] border-b-[0.5px] py-3 border-black/5 border-solid text-center">
                       Facilitators
                     </h1>
                   </NavLink>
@@ -185,7 +185,7 @@ const Nav = () => {
                       color: isActive ? "active" : "inactive",
                     })}
                   >
-                    <h1 className="text-md w-[100%] border-b-[0.5px] py-4 border-black/5 border-solid text-center">
+                    <h1 className="text-sm w-[100%] border-b-[0.5px] py-3 border-black/5 border-solid text-center">
                       Cooridantors
                     </h1>
                   </NavLink>
@@ -197,14 +197,14 @@ const Nav = () => {
                       color: isActive ? "active" : "inactive",
                     })}
                   >
-                    <h1 className="text-md w-[100%] border-b-[0.5px] py-4 border-black/5 border-solid text-center">
+                    <h1 className="text-sm w-[100%] border-b-[0.5px] py-3 border-black/5 border-solid text-center">
                       Reach us
                     </h1>
                   </NavLink>
                 </div>
                 <div className="flex w-full mt-5 justify-center">
                   <NavLink to="/applynow">
-                    <button className="imp w-full text-sm text-white bg-yellow-500/50 hover:bg-yellow-500 shadow-xl px-5 py-2 ease-in-out duration-150">
+                    <button className="imp w-full text-sm text-white bg-yellow-500/50 hover:bg-yellow-500 shadow-xl px-5 py-3 ease-in-out duration-150">
                       Apply Now
                     </button>
                   </NavLink>
@@ -224,7 +224,7 @@ const Nav = () => {
       <div className="navigation sticky bg-white top-0">
         <div className="hidden desktop lg:block">
           <div className="flex justify-center items-center w-screen max-w-[1440px] border-b-[0.5px] border-black/5">
-            <div className="px-11 py-2 flex w-full justify-between align-center items-center bg-white shadow-sm">
+            <div className="px-11 py-3 flex w-full justify-between align-center items-center bg-white shadow-sm">
               <div className=" w-[200px] p-[-20px]">
                 <NavLink to="/">
                   <img src={logo} alt="" className="scale-[80%]" />
@@ -303,7 +303,7 @@ const Nav = () => {
 
         <div className="hidden sm:block tablet lg:hidden ">
           <div className="flex justify-center items-center w-screen max-w-[1440px]">
-            <div className="px-5 py-2 flex w-[100%] justify-between align-center items-center">
+            <div className="px-5 py-3 flex w-[100%] justify-between align-center items-center">
               <div className="flex justify-between w-full align-center items-center">
                 <div className=" w-[170px]">
                   <NavLink to="/">
@@ -324,7 +324,7 @@ const Nav = () => {
         </div>
         <div className="block sm:hidden">
           <div className="flex flex-col justify-center items-center w-screen max-w-[1440px]">
-            <div className="px-5 py-2 flex w-[100%] justify-between align-center items-center bg-red">
+            <div className="px-5 py-3 flex w-[100%] justify-between align-center items-center bg-red">
               <div className="flex justify-between w-full align-center items-center">
                 <div className=" w-[170px]">
                   <NavLink to="/">
