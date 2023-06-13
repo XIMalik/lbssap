@@ -19,7 +19,7 @@ const Card = (props) => {
   const professor = props.professor;
   return (
     <Link to="/skills/course">
-      <div className="w-[100%] min-w-full max-w-[300px] bg-gray-100 h-[400px] rounded-sm overflow-hidden hover:shadow-xl ease-in-out duration-200">
+      <div className="w-[100%]  max-w-[300px] bg-gray-100 h-[400px] rounded-sm overflow-hidden hover:shadow-xl ease-in-out duration-200">
         <div className="imgcontainer w-full h-[40%] overflow-hidden">
           <img src={image} alt="" className="img" />
         </div>

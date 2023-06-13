@@ -154,7 +154,7 @@ const Landing = () => {
           </div>
         </div>
 
-        <div className="skillsoffered mb-8 items-center bg-[#f6f6f6] mt-[90px]">
+        <div className="skillsoffered mb-8 items-center bg-slate-200 mt-[90px]">
           <div className="container flex flex-col justify-center items-center w-full min-w-[100%]">
             <h1 className="text-xl md:text-3xl leading-5 lg:w-[60%] font-bold text-center w-full mt-5 mb-2">
               Our Courses

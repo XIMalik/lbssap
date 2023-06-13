@@ -39,7 +39,7 @@
 /* For small displays */
 @media (max-width: 1023px) {
   .courses-grid-containerr {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
   }
 }
 @media (min-width: 1024px) {

@@ -14,7 +14,7 @@ const Leadership = () => {
       <GoToTop />
       <Nav />
 
-      <div className=" flex flex-col h-[100vh] md:h-[80vh] py-5 gap-5">
+      <div className=" flex flex-col py-5 gap-5">
         <div className="flex flex-col gap-1">
           <h1 className="text-center text-lg font-bold text-[#040715] imp sticky top-10">
             The team
