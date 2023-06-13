@@ -13,6 +13,7 @@ import Leadership from "./pages/Leadership/Leadership";
 import Facilitators from "./pages/Facilitators/Facilitators";
 import Coordinators from "./pages/Coordinators/Coordinators";
 import Apply from "./pages/Apply/Apply";
+import FormPage from "./pages/FormPage/FormPage";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -30,6 +31,7 @@ function App() {
         <Route exact path="/facilitators" element={<Facilitators />} />
         <Route exact path="/coordinators" element={<Coordinators />} />
         <Route exact path="/applynow" element={<Apply />} />
+        <Route exact path="/formpage" element={<FormPage />} />
       </Routes>
     </BrowserRouter>
   );

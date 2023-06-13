@@ -12,11 +12,10 @@
 }
 
 .navlink:hover {
-  color: rgba(0, 0, 0, 0.663);
+  color: rgba(32, 178, 183, 0.663);
 }
 
 .active {
-  letter-spacing: 3px;
   font-size: 14px;
   color: #000711;
 }

@@ -201,7 +201,7 @@ const Landing = () => {
                 />
               </div>
             </div>
-            <NavLink to="/courses">
+            <NavLink to="/skills">
               <button className="text-sm bg-yellow-600 px-8 py-3 mb-5 imp rounded-sm text-white">
                 See all{" "}
               </button>

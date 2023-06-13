@@ -31,18 +31,6 @@ const Nav = () => {
                 </NavLink>
               </div>
               <div className="nav links imp flex flex-col px-6 w-full">
-                <div className="navlinkk hover:bg-yellow-500/50 rounded-lg ease-in-out duration-[200ms]">
-                  <NavLink
-                    to="/"
-                    style={({ isActive }) => ({
-                      color: isActive ? "active" : "inactive",
-                    })}
-                  >
-                    <h1 className="text-sm w-[100%] border-b-[0.5px] py-3 border-black/5 border-solid text-center">
-                      Home
-                    </h1>
-                  </NavLink>
-                </div>
                 <div className="navlinkk  hover:bg-yellow-500/50 rounded-lg ease-in-out duration-[200ms]">
                   <NavLink
                     to="/skills"
@@ -105,7 +93,7 @@ const Nav = () => {
                 </div>
                 <div className="flex w-full mt-5 justify-center">
                   <NavLink to="/applynow">
-                    <button className="imp w-full text-sm text-white bg-yellow-500/50 hover:bg-yellow-500 shadow-xl px-5 py-3 ease-in-out duration-150">
+                    <button className="imp w-full text-sm text-white bg-slate-400 hover:bg-yellow-500 shadow-xl px-5 py-3 ease-in-out duration-150">
                       Apply Now
                     </button>
                   </NavLink>
@@ -130,18 +118,6 @@ const Nav = () => {
           >
             <div className="flex flex-col top-8 gap-5 absolute z-50 h-full w-full ">
               <div className="nav links imp flex flex-col px-6 w-full">
-                <div className="navlinkk hover:bg-yellow-500/50 rounded-lg ease-in-out duration-[200ms]">
-                  <NavLink
-                    to="/"
-                    style={({ isActive }) => ({
-                      color: isActive ? "active" : "inactive",
-                    })}
-                  >
-                    <h1 className="text-sm w-[100%] border-b-[0.5px] py-3 border-black/5 border-solid text-center">
-                      Home
-                    </h1>
-                  </NavLink>
-                </div>
                 <div className="navlinkk  hover:bg-yellow-500/50 rounded-lg ease-in-out duration-[200ms]">
                   <NavLink
                     to="/skills"
@@ -204,7 +180,7 @@ const Nav = () => {
                 </div>
                 <div className="flex w-full mt-5 justify-center">
                   <NavLink to="/applynow">
-                    <button className="imp w-full text-sm text-white bg-yellow-500/50 hover:bg-yellow-500 shadow-xl px-5 py-3 ease-in-out duration-150">
+                    <button className="imp w-full text-sm text-white bg-slate-400 hover:bg-yellow-500 shadow-xl px-5 py-3 ease-in-out duration-150">
                       Apply Now
                     </button>
                   </NavLink>
@@ -221,26 +197,16 @@ const Nav = () => {
           </div>
         }
       </div>
-      <div className="navigation sticky bg-white top-0">
+      <div className="navigation sticky bg-white border-b-[0.5px] border-black/5 border-solid top-0">
         <div className="hidden desktop lg:block">
-          <div className="flex justify-center items-center w-screen max-w-[1440px] border-b-[0.5px] border-black/5">
-            <div className="px-11 py-3 flex w-full justify-between align-center items-center bg-white shadow-sm">
-              <div className=" w-[200px] p-[-20px]">
+          <div className="flex justify-center items-center w-screen max-w-[1440px]">
+            <div className="px-11 py-2 flex w-full justify-between align-center items-center bg-white shadow-sm">
+              <div className=" w-[180px] p-[-20px]">
                 <NavLink to="/">
-                  <img src={logo} alt="" className="scale-[80%]" />
+                  <img src={logo} alt="" className="scale-[90%]" />
                 </NavLink>
               </div>
               <div className="links flex h-full gap-5 justify-evenly align-center items-center">
-                <div className="navlink imp">
-                  <NavLink
-                    to="/"
-                    style={({ isActive }) => ({
-                      color: isActive ? "active" : "inactive",
-                    })}
-                  >
-                    <h1>Home</h1>
-                  </NavLink>
-                </div>
                 <div className="navlink imp">
                   <NavLink
                     to="/skills"
@@ -292,7 +258,7 @@ const Nav = () => {
                   </NavLink>
                 </div>
                 <NavLink to="/applynow">
-                  <button className="imp text-sm text-white bg-yellow-600 px-9 py-3 rounded-md ease-in-out duration-150">
+                  <button className="imp text-sm text-white bg-slate-400 px-9 py-3 rounded-md ease-in-out duration-150">
                     Apply Now
                   </button>
                 </NavLink>
@@ -326,7 +292,7 @@ const Nav = () => {
           <div className="flex flex-col justify-center items-center w-screen max-w-[1440px]">
             <div className="px-5 py-3 flex w-[100%] justify-between align-center items-center bg-red">
               <div className="flex justify-between w-full align-center items-center">
-                <div className=" w-[170px]">
+                <div className=" w-[170px] mx-auto">
                   <NavLink to="/">
                     <img src={logo} alt="" className="scale-[70%]" />
                   </NavLink>
